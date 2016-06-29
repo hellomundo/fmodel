@@ -1,0 +1,19 @@
+{
+  "name": "fmodel",
+  "version": "1.0.0",
+  "description": "financial playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellomundo/fmodel.git"
+  },
+  "author": "Edmundo Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellomundo/fmodel/issues"
+  },
+  "homepage": "https://github.com/hellomundo/fmodel#readme"
+}

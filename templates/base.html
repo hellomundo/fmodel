@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  {% if title %}
+  <title>{{ title }}</title>
+  {% else %}
+  <title>FinApp</title>
+  {% endif %}
+  <meta name="description" content="FinApp">
+  <meta name="author" content="Edmundo Ortega">
+
+  <link rel="stylesheet" href="/static/css/app.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  {% block content %}{% endblock %}
+  <!--<script src="/static/js/main.js"></script>-->
+</body>
+</html>

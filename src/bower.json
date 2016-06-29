@@ -1,0 +1,21 @@
+{
+  "name": "fmodel",
+  "homepage": "https://github.com/hellomundo/fmodel",
+  "authors": [
+    "hellomundo <ed.ortega@gmail.com>"
+  ],
+  "description": "finance playground",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.0"
+  }
+}
